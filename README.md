@@ -6,7 +6,7 @@ Install:
 git clone https://github.com/abhishekyana/Intent-Recognition
 cd Intent-Recognition
 ```
-You can try the below code:
+You can try the below code:<br/>
 Usage:
 ```
 from intentrecognition import IntentRecognition
