@@ -1,5 +1,13 @@
 # Intent-Recognition
 Easy and Fast Intent Recognition from a natural language question using Snips-nlu as backend.
+
+Install:
+```
+mkdir IntentRecog
+cd IntentRecog
+git clone https://github.com/abhishekyana/Intent-Recognition
+```
+You can tyr the below code:
 Usage:
 ```
 from intentrecognition import IntentRecognition
@@ -30,3 +38,4 @@ Output is:
    'slotName': 'destination',
    'value': {'kind': 'Custom', 'value': 'London'}}]}
 ```
+Thank you
