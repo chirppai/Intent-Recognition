@@ -3,9 +3,8 @@ Easy and Fast Intent Recognition from a natural language question using Snips-nl
 
 Install:
 ```
-mkdir IntentRecog
-cd IntentRecog
 git clone https://github.com/abhishekyana/Intent-Recognition
+cd Intent-Recognition
 ```
 You can tyr the below code:
 Usage:
