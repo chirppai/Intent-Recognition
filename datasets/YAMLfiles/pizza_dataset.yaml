@@ -1,0 +1,26 @@
+# Author Abhishek
+# Date 29-July-2019
+# Tech: Chirpp NLP
+# Pizza Dataset
+---
+type: intent # Type is either intent or entity
+name: pizzaFeat # Intent name should be here, single word.
+slots: # To show that We have some variables in the sentence
+  - name: pizzaType # Example slotname to detect in the sentence
+    entity: pizzaType # Entity to give out when found
+  - name: pizzaSize
+    entity: pizzaSize
+utterances: #Some examples
+  - Order a [pizzaSize](big) [pizzaType](paneer) pizza now
+  - Get me a pizza, [pizzaSize](small) [pizzaType](veggy pepper)
+
+
+# personName entity
+---
+type: entity
+name: pizzaSize
+automatically_extensible: yes
+values:
+- [small, tiny, little, for 2, mini]
+- [medium, mid, med, average, regular]
+- [big, large, giant]
