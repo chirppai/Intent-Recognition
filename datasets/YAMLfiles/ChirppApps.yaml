@@ -1,0 +1,42 @@
+
+
+# TurnOn intent
+---
+type: intent
+name: TurnOn
+slots:
+  - name: room
+    entity: room
+  - name: thing
+    entity: thing
+utterances:
+  - Turn on the [thing](lights) in the [room](kitchen)
+  - Turn on the [thing](fan) in the [room](garden)
+  - give me some light in the [room](bathroom) please
+  - Can you light up the [room](living room)
+  - switch the [room](bedroom) lights on please
+  - Its too dark in the [room](kitchen)
+  - Make the [room](kitchen) brighter
+  - Its too hot in the [room](living room)
+  - I'm going to [room](living room)
+  - I need some brightness in [room](bedroom)
+  - I need some 
+# room entity
+---
+type: entity
+name: room
+automatically_extensible: no
+values:
+- [bedroom, sleeping room, my room, bed]
+- [living room, main room, lounge,sitting room, parlour, front room, drawing room, morning room, family room]
+- [garden, yard, backyard, lawn, park, estate, grounds, yard]
+- [kitchen, cookroom, cook room, eat area, dining room]
+
+# thing entity
+---
+type: entity
+name: thing
+automatically_extensible: no
+values:
+- [light,lights]
+- [ Fan,air cooler, air conditioner, ventilator, blower]
