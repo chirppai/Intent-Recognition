@@ -1,7 +1,7 @@
 # Simple Intent Recognition
 Easy and Fast Intent Recognition from a natural language question using [Snips-nlu](https://github.com/snipsco/snips-nlu) as backend.
 
-Install:
+Install and Running:
 ```
 git clone https://github.com/abhishekyana/Intent-Recognition
 cd Intent-Recognition
